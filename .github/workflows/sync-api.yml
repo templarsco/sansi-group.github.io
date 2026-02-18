@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch latest api.json
-        run: curl -sL https://sansi-group.github.io/models.dev-1/api.json -o api.json
+        run: curl -sL https://templarsco.github.io/models.dev-1/api.json -o api.json
 
       - name: Check for changes
         id: diff

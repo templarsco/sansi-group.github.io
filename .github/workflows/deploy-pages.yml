@@ -24,7 +24,7 @@ jobs:
 
       - name: Fetch latest api.json from models.dev-1
         run: |
-          curl -sL "https://sansi-group.github.io/models.dev-1/api.json" -o api.json
+          curl -sL "https://templarsco.github.io/models.dev-1/api.json" -o api.json
           echo "Fetched api.json ($(wc -c < api.json) bytes)"
 
       - name: Upload Pages artifact
